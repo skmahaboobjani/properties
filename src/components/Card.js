@@ -14,7 +14,9 @@ const Card = (props) => {
                 <h6>${d.price} /month</h6>
               <h5 className="card-title">{d.title}</h5>
               <p className="card-text">
-                {d.location.street},{d.location.city},{d.location.state}-{d.location.pincode}
+               
+                  {d.location.city},{d.location.state}
+                 
               </p>
             </div>
             <div className="card-footer">
